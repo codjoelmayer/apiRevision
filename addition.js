@@ -1,1 +1,3 @@
-console.log('Addition');
+exports.addition = (a, b)=> {
+    return a + b
+}
