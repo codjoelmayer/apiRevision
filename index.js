@@ -1,5 +1,5 @@
-const {addition} = require('./addition')
-const {subtraction} = require('./subtraction')
+import {addition} from './addition.js'
+import {subtraction} from './subtraction.js'
 
 console.log(addition(3, 6));
 console.log(subtraction(7, 3));
